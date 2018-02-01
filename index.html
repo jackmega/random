@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html id='html'>
+<head>
+	<link href='style.css' rel='stylesheet' type='text/css'>
+	<script src='script.js'></script>
+	<title>Writings</title>
+	<link href='img/icon.png' rel='icon' type='icon'>
+</head>
+<body>
+	<div class='container'>
+		<header>
+			<ul class='nav'>
+				<li><img onclick='darken()' id='dark' class='icon' src='img/moon.png'></li>
+				<li><img onclick='lighten()' id='light' class='icon' src='img/sun.png'></li>
+			</ul>
+		</header>
+		<div class='img-holder screen-large'><!-- for larger screens -->
+			<div class='size-half background-light' id='story1' onclick='large1()'>
+				<p class='pdf-title'>The Story of Nif</p>
+					<embed src='stories/the-story-of-nif.pdf' class='pdf' type='application/pdf'>
+			</div>
+			<div class='size-half background-light' id='story2' onclick='large2()'>
+				<p class='pdf-title'>The Vanished City</p>
+					<embed src='stories/the-vanished-city.pdf' class='pdf' type='application/pdf'>
+			</div>
+			<div class='size-half background-light' id='story3' onclick='large3()'>
+				<p class='pdf-title'>Odd Happenings at Gilnock Hall (W.I.P.)</p>
+					<embed src='stories/odd-happenings-at-gilnock-hall.pdf' class='pdf' type='application/pdf'>
+			</div>
+		</div>
+		<div class='img-holder screen-small'><!-- for small screens -->
+			
+		</div>
+	</div>
+	<footer>
+		
+	</footer>
+</body>
+</html>

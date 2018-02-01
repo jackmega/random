@@ -1,0 +1,126 @@
+html {
+	background-color: #eee;
+}
+.container {
+	display: block;
+	margin: auto;
+	width: 99%;
+}
+.img-holder {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.pdf {
+	width: 100%;
+	height: 30em;
+}
+.pdf-title {
+	font-variant: small-caps;
+	background-color: rgba(255, 255, 255, .9);
+	border-radius: 20px;
+	padding: .25em;
+}
+.background-light {
+	background-color: rgba(0, 0, 0, .1);
+	border-radius: 35px;
+	padding: 1em;
+}
+.nav {
+	list-style: none;
+	margin-left: 90%;
+}
+.nav li {
+	display: inline;
+}
+.icon {
+	width: 50px;
+	background-color: rgba(255, 255, 255, .5);
+	padding: .5em;
+	border-radius: 15px;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+.icon:hover {
+	width: 60px;
+	-webkit-transition: all .5s .2s;
+	-moz-transition: all .5s .2s;
+	-o-transition: all .5s .2s;
+}
+
+/*1/4 size*/
+	.size-fourth {
+		width: 22%;
+		height: 22%;
+		text-align: center;
+		margin: 1em;
+		-webkit-transition: all .5s .2s;
+		-moz-transition: all .5s .2s;
+		-o-transition: all .5s .2s;
+	}
+	.size-fourth:hover {
+		width: 24%;
+		height: 24%;
+		font-size: 1.2em;
+		-webkit-transition: all .5s .2s;
+		-moz-transition: all .5s .2s;
+		-o-transition: all .5s .2s;
+	}
+
+/*1/3 size*/
+	.size-third {
+		width: 30%;
+		height: 30%;
+		text-align: center;
+		margin: 1em;
+		-webkit-transition: all .5s .2s;
+		-moz-transition: all .5s .2s;
+		-o-transition: all .5s .2s;
+	}
+	.size-third:hover {
+		width: 32%;
+		height: 32%;
+		font-size: 1.2em;
+		-webkit-transition: all .5s .2s;
+		-moz-transition: all .5s .2s;
+		-o-transition: all .5s .2s;
+	}
+
+/*1/2 size*/
+	.size-half {
+		width: 45%;
+		height: 45%;
+		text-align: center;
+		margin: 1em;
+		-webkit-transition: all .5s .2s;
+		-moz-transition: all .5s .2s;
+		-o-transition: all .5s .2s;
+	}
+	.size-half:hover {
+		width: 46%;
+		height: 46%;
+		font-size: 1.2em;
+		-webkit-transition: all .5s .2s;
+		-moz-transition: all .5s .2s;
+		-o-transition: all .5s .2s;
+	}
+
+/*1 size*/
+	.size-full {
+		width: 90%;
+		height: 90%;
+		text-align: center;
+		margin: 1em;
+		-webkit-transition: all .5s .2s;
+		-moz-transition: all .5s .2s;
+		-o-transition: all .5s .2s;
+	}
+	.size-full:hover {
+		width: 92%;
+		height: 92%;
+		font-size: 1.2em;
+		-webkit-transition: all .5s .2s;
+		-moz-transition: all .5s .2s;
+		-o-transition: all .5s .2s;
+	}
